@@ -18,7 +18,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 import { styles } from '../styles/styles';
 import {API_KEY} from '../config'
 
-const TMDB_API_KEY = TMDB_API_KEY;
+const TMDB_API_KEY = API_KEY;
 
 const genreMap = {
   28: 'Action', 12: 'Adventure', 16: 'Animation', 35: 'Comedy',
