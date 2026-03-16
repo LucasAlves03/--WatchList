@@ -1,0 +1,247 @@
+import { StyleSheet } from 'react-native';
+const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    backgroundColor: '#000000ff',
+  },
+  navbar: {
+    backgroundColor: '#000000ff',
+    paddingTop: 10,
+    paddingBottom: 0,
+    borderBottomWidth: 1,
+    borderBottomColor: '#1a1a1a',
+  },
+  navTitle: {
+    fontSize: 24,
+    fontWeight: '800',
+    color: '#fff',
+    textAlign: 'center',
+    letterSpacing: 2,
+    margin: 16,
+  },
+  tabContainer: {
+    flexDirection: 'row',
+    paddingHorizontal: 20,
+  },
+  tab: {
+    flex: 1,
+    paddingVertical: 12,
+    alignItems: 'center',
+    borderBottomWidth: 2,
+    borderBottomColor: 'transparent',
+  },
+  activeTab: {
+    borderBottomColor: '#dc2626',
+  },
+  tabText: {
+    fontSize: 15,
+    fontWeight: '600',
+    color: '#666',
+  },
+  activeTabText: {
+    color: '#fff',
+  },
+  searchSection: {
+    backgroundColor: '#000000ff',
+    paddingHorizontal: 20,
+    paddingVertical: 16,
+    borderBottomWidth: 1,
+    borderBottomColor: '#1a1a1a',
+  },
+  searchContainer: {
+    flexDirection: 'row',
+    gap: 10,
+  },
+  searchInput: {
+    flex: 1,
+    backgroundColor: '#1a1a1a',
+    color: '#fff',
+    padding: 14,
+    borderRadius: 10,
+    fontSize: 15,
+    borderWidth: 1,
+    borderColor: '#2a2a2a',
+  },
+  searchButton: {
+    backgroundColor: '#dc2626',
+    paddingHorizontal: 24,
+    borderRadius: 10,
+    justifyContent: 'center',
+    alignItems: 'center',
+    minWidth: 90,
+  },
+  searchButtonText: {
+    color: '#fff',
+    fontSize: 15,
+    fontWeight: '700',
+  },
+  filterBar: {
+    backgroundColor: '#0a0a0a',
+    borderBottomWidth: 1,
+    borderBottomColor: '#1a1a1a',
+    paddingVertical: 12,
+  },
+  filterContent: {
+    paddingHorizontal: 20,
+    gap: 20,
+  },
+  sortSection: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  genreSection: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    gap: 8,
+  },
+  filterLabel: {
+    fontSize: 13,
+    color: '#999',
+    fontWeight: '600',
+    marginRight: 4,
+  },
+  filterButton: {
+    paddingHorizontal: 14,
+    paddingVertical: 6,
+    borderRadius: 16,
+    backgroundColor: '#1a1a1a',
+    borderWidth: 1,
+    borderColor: '#2a2a2a',
+  },
+  filterButtonActive: {
+    backgroundColor: '#dc2626',
+    borderColor: '#dc2626',
+  },
+  filterButtonText: {
+    fontSize: 13,
+    color: '#666',
+    fontWeight: '600',
+  },
+  filterButtonTextActive: {
+    color: '#fff',
+  },
+  scrollView: {
+    flex: 1,
+  },
+  scrollContent: {
+    flexGrow: 1,
+  },
+  listContent: {
+    padding: 16,
+  },
+  horizontalCard: {
+    backgroundColor: '#0f0f0f',
+    borderRadius: 12,
+    marginBottom: 12,
+    flexDirection: 'row',
+    overflow: 'hidden',
+    borderWidth: 1,
+    borderColor: '#1a1a1a',
+    height: 160,
+  },
+  posterSection: {
+    width: 110,
+  },
+  horizontalPoster: {
+    width: '100%',
+    height: '100%',
+    backgroundColor: '#1a1a1a',
+  },
+  noPoster: {
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  noPosterText: {
+    fontSize: 10,
+    color: '#666',
+    fontWeight: '600',
+  },
+  horizontalInfo: {
+    flex: 1,
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  horizontalContent: {
+    flex: 1,
+    padding: 14,
+    justifyContent: 'center',
+  },
+  horizontalTitle: {
+    fontSize: 16,
+    fontWeight: '700',
+    color: '#fff',
+    marginBottom: 6,
+    lineHeight: 20,
+  },
+  horizontalYear: {
+    fontSize: 13,
+    color: '#999',
+    marginBottom: 4,
+    fontWeight: '500',
+  },
+  horizontalGenre: {
+    fontSize: 12,
+    color: '#666',
+    fontWeight: '500',
+    marginBottom: 8,
+  },
+  horizontalRating: {
+    alignSelf: 'flex-start',
+    backgroundColor: 'rgba(251, 191, 36, 0.15)',
+    paddingHorizontal: 8,
+    paddingVertical: 4,
+    borderRadius: 6,
+    borderWidth: 1,
+    borderColor: '#fbbf24',
+  },
+  ratingText: {
+    color: '#fbbf24',
+    fontSize: 13,
+    fontWeight: '700',
+  },
+  horizontalAddButton: {
+    backgroundColor: '#dc2626',
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100%',
+  },
+  horizontalRemoveButton: {
+    backgroundColor: '#dc2626',
+    paddingHorizontal: 20,
+    paddingVertical: 12,
+    justifyContent: 'center',
+    alignItems: 'center',
+    height: '100%',
+  },
+  horizontalButtonText: {
+    color: '#fff',
+    fontSize: 13,
+    fontWeight: '700',
+    letterSpacing: 0.5,
+  },
+  emptyState: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    paddingHorizontal: 40,
+    paddingVertical: 60,
+  },
+  emptyStateTitle: {
+    fontSize: 22,
+    fontWeight: '700',
+    color: '#fff',
+    marginBottom: 12,
+    textAlign: 'center',
+  },
+  emptyStateText: {
+    fontSize: 15,
+    color: '#666',
+    textAlign: 'center',
+    lineHeight: 22,
+  },
+});
+
+export { styles };
